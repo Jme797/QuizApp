@@ -1,0 +1,25 @@
+.header {
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.answer {
+  h1 {
+    font-size: 3rem;
+    font-family: "Oswald";
+  }
+}
+
+.options {
+  * {
+    flex-grow: 1;
+    width: 45%;
+    max-width: 50%;
+    margin: 1rem;
+  }
+}
+
+.answerSelected {
+  background-color: rgb(198, 198, 198);
+  color: black;
+}

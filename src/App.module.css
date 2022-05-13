@@ -1,0 +1,25 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.container {
+  position: fixed;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.details {
+  position: fixed;
+  top: 20px;
+  width: 100vw;
+  text-align: center;
+}
+
+.detailsCount {
+  position: absolute;
+  right: 50px;
+}
